@@ -18,6 +18,7 @@
           *ngFor="let color of colorOptions"
           [style.background-color]="color"
           [ngClass]="{ selected: selectedColor === color }"
+          (click)="onClickSwatch(color)"
         ></div>
       </div>
     </div>

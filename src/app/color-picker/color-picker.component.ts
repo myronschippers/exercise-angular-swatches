@@ -13,4 +13,8 @@ export class ColorPickerComponent implements OnInit {
   ngOnInit(): void {
     this.selectedColor = "black";
   }
+
+  onClickSwatch(color: string): void {
+    this.selectedColor = color;
+  }
 }
