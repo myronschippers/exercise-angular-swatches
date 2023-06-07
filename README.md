@@ -1,6 +1,6 @@
 # Color Picker
 
-## Environment 
+## Environment
 
 - Angular CLI Version: 10.0.4
 - Angular Core Version: 10.0.4
