@@ -1,6 +1,10 @@
 <div class="layout-row justify-content-center">
   <div class="card mt-75">
-    <div class="canvas" data-test-id="selectedColor">
+    <div
+      class="canvas"
+      data-test-id="selectedColor"
+      [style.background-color]="selectedColor"
+    >
       <p class="text-center mx-auto px-5">{{ selectedColor }}</p>
     </div>
     <div class="card-actions">
